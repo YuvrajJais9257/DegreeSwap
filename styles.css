@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/close-up-thermometer-showing-high-temperature_23-2149456780.jpg?w=900&t=st=1691851762~exp=1691852362~hmac=f8d05630d0ecf6af934223a3506dc2703ee29c4307f67da95c551e8578c28b7b');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    transition: box-shadow 0.4s ease-in-out;
+}
+.card:hover{
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.3), 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+.card-header, .card-title, .result {
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-text {
+    width: 70%;
+    padding: 12px;
+    margin-right: 12px;
+}
+
+h5{
+    margin-top: 12px;
+}
+
+button {
+    background-color: #ff00ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out; 
+}
+
+button:hover {
+    background-color: #00ff00;
+    animation: rave-glow 1s infinite alternate; 
+}
+
+@keyframes rave-glow {
+    0% {
+        box-shadow: 0 0 12px #ff00ff, 0 0 21px #ff00ff, 0 0 30px #ff00ff;
+    }
+    100% {
+        box-shadow: 0 0 21px #00ff00, 0 0 41px #00ff00, 0 0 60px #00ff00;
+    }
+}
+@media (max-width: 768px) {
+    .card {
+        width: 80%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .card-text {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+
+    button {
+        width: 100%;
+    }
+    
+    .card-header, .card-title, .result {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+  
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 90%;
+    }
+
+}
