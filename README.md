@@ -17,18 +17,18 @@ TempConverter is a simple web application that allows you to quickly and easily 
    ```bash
    git clone https://github.com/your-username/TempConverter.git
    
-##Usage
+## Usage
 -Enter the temperature value in either Fahrenheit or Celsius in the input field.
 -Select the unit of the entered temperature.
 -The corresponding converted temperature will be instantly displayed.
 
-##Technologies Used
+## Technologies Used
 
 -HTML
 -CSS
 -JavaScript
 
-#Contributing
+# Contributing
 Contributions are welcome! Here's how you can contribute:
 
 -Fork the repository.
