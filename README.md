@@ -1,4 +1,4 @@
-# TempConverter - Fahrenheit to Celsius and Vice Versa
+# DegreeSwap - Fahrenheit to Celsius and Vice Versa
 
 
 TempConverter is a simple web application that allows you to quickly and easily convert temperatures between Fahrenheit and Celsius. Whether you're traveling to a different country or just curious about temperature conversions, TempConverter has you covered.
